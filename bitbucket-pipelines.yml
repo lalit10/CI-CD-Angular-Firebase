@@ -10,11 +10,11 @@ pipelines:
       - step:
           name: 'Build and Test'
           script:
-            - echo "Your build and test goes here..."
+            - echo "Your build and test goes here."
       - step:
           name: 'Lint'
           script:
-            - echo "Your linting goes here..."
+            - echo "Your linting goes here."
       - step:
           name: 'Security scan'
           script:
